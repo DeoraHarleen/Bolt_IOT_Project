@@ -1,0 +1,32 @@
+singleButton({
+  name: "Alarm High",
+  action: "analogWrite", // Change to analogWrite
+  pin: "0",
+  value: "255", // Use a high value for maximum intensity (ON)
+  bgcolor: "green",
+  shape: "rectangle",
+  align: "left",
+  text_color: "white"
+});
+
+singleButton({
+  name: "Alarm Low",
+  action: "analogWrite", // Change to analogWrite
+  pin: "0",
+  value: "50", // Use a high value for maximum intensity (ON)
+  bgcolor: "yellow",
+  shape: "rectangle",
+  align: "left",
+  text_color: "black"
+});
+
+singleButton({
+  name: "Alarm Off",
+  action: "analogWrite", // Change to analogWrite
+  pin: "0",
+  value: "0", // Use 0 to turn off the buzzer (OFF)
+  bgcolor: "red",
+  shape: "rectangle",
+  align: "left",
+  text_color: "black"
+});
