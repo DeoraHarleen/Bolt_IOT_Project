@@ -1,6 +1,6 @@
 singleButton({
   name: "Alarm High",
-  action: "analogWrite", // Change to analogWrite
+  action: "analogWrite", 
   pin: "0",
   value: "255", // Use a high value for maximum intensity (ON)
   bgcolor: "green",
@@ -11,7 +11,7 @@ singleButton({
 
 singleButton({
   name: "Alarm Low",
-  action: "analogWrite", // Change to analogWrite
+  action: "analogWrite", 
   pin: "0",
   value: "50", // Use a medium value 
   bgcolor: "yellow",
@@ -22,7 +22,7 @@ singleButton({
 
 singleButton({
   name: "Alarm Off",
-  action: "analogWrite", // Change to analogWrite
+  action: "analogWrite", 
   pin: "0",
   value: "0", // Use 0 to turn off the buzzer (OFF)
   bgcolor: "red",
