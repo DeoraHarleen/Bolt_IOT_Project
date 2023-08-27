@@ -1,0 +1,7 @@
+singleButton({name:"Alarm On", action:"digitalWrite", 
+              pin:"0", value:"HIGH",bgcolor:"green",
+              shape:"rectangle",align:"left","text_color":"white" })
+
+singleButton({name:"Alarm Off", action:"digitalWrite", 
+              pin:"0", value:"LOW", bgcolor:"red",
+              shape:"rectangle", align:"left", text_color:"black"})
