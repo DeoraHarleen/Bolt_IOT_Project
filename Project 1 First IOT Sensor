@@ -1,0 +1,3 @@
+setChartLibrary('google-chart');
+setChartType('LineGraph');
+plotChart("time_stamp","light");
