@@ -13,7 +13,7 @@ singleButton({
   name: "Alarm Low",
   action: "analogWrite", // Change to analogWrite
   pin: "0",
-  value: "50", // Use a high value for maximum intensity (ON)
+  value: "50", // Use a medium value 
   bgcolor: "yellow",
   shape: "rectangle",
   align: "left",
