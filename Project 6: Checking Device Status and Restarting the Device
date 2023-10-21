@@ -1,0 +1,15 @@
+//create a file using nano editor
+sudo nano device_status.py 
+
+//Type the below code in your file
+from boltiot import Bolt
+api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+device_id  = "BOLTXXXXXX"
+mybolt = Bolt(api_key, device_id)
+response = mybolt.isOnline()
+//To restart the device
+//response = mybolt.restart()
+print (response)
+
+//Now save the file and run the Python file.
+sudo python3 device_status.py
