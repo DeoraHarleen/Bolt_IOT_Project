@@ -1,0 +1,16 @@
+//create a Python file
+sudo nano led_control.py
+
+//type the below code in your file
+from boltiot import Bolt
+api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+device_id  = "BOLTXXXXX"
+mybolt = Bolt(api_key, device_id)
+//to on the LED
+response = mybolt.digitalWrite('0', 'HIGH')
+//to off the led 
+//response = mybolt.digitalWrite('0', 'LOW')
+print (response)
+
+//Save the above file using and run it in the terminal
+sudo python3 led_control.py 
